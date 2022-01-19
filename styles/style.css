@@ -16,6 +16,28 @@
   /* выше установили ограничения для секции */
 }
 
+.logo {
+width: 183px;
+}
+
+.logo_place_header {
+  height: 32px;
+  padding-left: 64px;
+  padding-top: 30px;
+  position: absolute;
+}
+
+
+
+.header__title {
+  display: flex;
+  margin-left: 64px;
+  align-items: center;
+  width: 730px;
+  height: 96px; 
+  font-size: 102px;
+  font-weight: bold;
+}
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
