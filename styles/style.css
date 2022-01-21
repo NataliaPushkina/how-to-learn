@@ -224,6 +224,35 @@ width: 183px;
   right: 48px;
 }
 
+.kaufman {
+  position: relative;
+  color: white;
+  background-color: #000000;
+}
+
+.section-title_theme_dark {
+  width: 60%;
+  margin: 90px auto 20px;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.section-subtitle_theme_dark {
+  width: 60%;
+  margin: 90px auto 20px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.table_theme_dark {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  align-content: stretch;
+  justify-content: center;
+}
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -231,4 +260,24 @@ width: 183px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.table__heading_theme_dark {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__text_theme_dark {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  width: 877px;
+  height: 877px;
+  overflow: hidden;
+  right: -210px;
 }
