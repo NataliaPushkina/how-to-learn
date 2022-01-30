@@ -103,11 +103,10 @@
 }
 
 .two-columns {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   width: 80%;
   display: flex;
-  margin: 0 auto;
   justify-content: space-between;
 }
 
@@ -303,11 +302,10 @@
 /*kaufman*/
 
 .kaufman {
-  margin: 0;
+  margin: 0 auto;
   padding-bottom: 90px;
   position: relative;
   background-color: #000000;
-  margin: 0 auto;
   overflow: hidden;
 }
 
@@ -334,10 +332,9 @@
 }
 
 .footer__columns {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   display: flex;
-  margin: 0 auto;
   width: 90%;
   justify-content: space-between;
   min-height:  250px;
@@ -365,9 +362,8 @@
 }
 
 .footer__author {
-  margin: 0;
-  padding: 0;
   margin: 18px 0;
+  padding: 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
