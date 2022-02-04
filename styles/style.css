@@ -18,6 +18,7 @@
   position: relative;
   display: flex;
   background-color: #f2f2f2;
+  overflow: hidden;
 }
 
 .logo {
@@ -41,31 +42,30 @@
   background-image: url(../images/logo_place_footer.svg);
 }
 
-.header__title {
-  margin: 0;
-  margin-left: 64px;
-  align-self: center;
-  width: 730px;
-  line-height: 96px;
-  font-size: 102px;
-  font-weight: bold;
-}
-
-.header__subtitle {
-  margin: 0;
-  width: 388px;
-  margin-left: 64px;
-  bottom: 30px;
-  font-size: 18px;
-  line-height: 25px;
-  font-weight: normal;
-  position: absolute;
-}
-
 .header__link {
+  display: inline-block;
   margin: 0;
   color: #2f80ed;
   text-decoration: none;
+}
+
+.header__link:hover {
+  transform: translate(10px, 0);
+  opacity: 0.7;
+  transition: 0.3s all;
+}
+
+@keyframes rotation {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+.rotation {
+  animation: rotation 20s infinite;
 }
 
 .header__square-pic {
@@ -86,6 +86,27 @@
   bottom: 0;
   right: 0;
   z-index: 1;
+  position: absolute;
+}
+
+.header__title {
+  margin: 0;
+  margin-left: 64px;
+  align-self: center;
+  width: 730px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
+}
+
+.header__subtitle {
+  margin: 0;
+  width: 388px;
+  margin-left: 64px;
+  bottom: 30px;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
   position: absolute;
 }
 
@@ -143,10 +164,72 @@
   font-weight: bold;
 }
 
+/*techniques*/
+  .techniques {
+    margin: 100px auto 0;
+    width: 80%;
+    border: 1px solid blue; 
+  }
+
+  .cards {
+    margin: 0 auto;
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border: 1px solid green;  
+  }
+
+  .cards__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 320px;
+    margin: 60px 50px;
+    border: 1px solid red;
+  }
+
+  .cards__image {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin: 0 40px;
+    border: 1px solid red;
+  }
+
+  .cards__title {
+  margin: 43px 0 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid red;
+  }
+
+  .card__description {
+  margin: 16px 0 0;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+  border: 1px solid red;
+  }
+
+/*video*/
+  .video {
+    margin: 100px auto 0;
+  }
+
+  /*oakley*/
+ .oakley {
+   margin: 0 auto;
+   padding-top: 160px;
+ }
+
 /*digits*/
 
 .digits {
-  margin: 100px auto;
+  margin: 0 auto 100px;
 }
 
 .section-title {
@@ -161,7 +244,7 @@
 }
 
 .section-title_theme_light {
-  margin: 0 auto;
+  margin: 100px auto 0;
   color: #000000;
 }
 
