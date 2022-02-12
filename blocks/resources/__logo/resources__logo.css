@@ -4,5 +4,5 @@
 }
 
 .resources__logo:hover {
-    transform: scale(1.2);
+    opacity: .6;
 }

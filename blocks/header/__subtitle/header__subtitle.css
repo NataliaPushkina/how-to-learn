@@ -7,4 +7,5 @@
     line-height: 25px;
     font-weight: normal;
     position: absolute;
+    z-index: 1;
   }
