@@ -8,4 +8,4 @@
 * Анимация
 * Файловая структура организована по методологии БЭМ Nested
 
-<a href="laughable-bike.surge.sh" target="_blank">Ссылка на демо сайта</a>
+<a href="https://laughable-bike.surge.sh/" target="_blank">Ссылка на демо сайта</a>
